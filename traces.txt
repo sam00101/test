@@ -1,0 +1,24 @@
+
+
+Flow Details
+2018-05-29 14:09:21 GET rest/contrats/bancaires/CTR%7C5331%7…
+                        ← 500 Internal Server Error application/json 166b 2.18s
+                 Request                                 Response                                  Detail
+Pragma:                  no-cache                                                                                      
+X-Content-Type-Options:  nosniff                                                                                       
+X-Application-Context:   application:qualif:8081                                                                       
+Server:                  aws                                                                                           
+Transfer-Encoding:       chunked                                                                                       
+JSON                                                                                                             [m:auto]
+{
+    "clientsMandataires": [],
+    "operations": [],
+    "return": {
+        "error": {
+            "code": "900",
+            "message": "LibellÃ© correspondant non trouvÃ©"
+        },
+        "status": "KO"
+    },
+    "servicesNonSouscrits": []
+}
